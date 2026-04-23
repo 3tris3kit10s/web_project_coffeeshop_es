@@ -10,6 +10,8 @@ main {
   background-color: #ffd6c5;
   background-image: url(../images/main/background_reservation.svg);
   background-size: cover;
+  position: relative;
+  z-index: 1;
 }
 
 fieldset {
@@ -40,7 +42,7 @@ fieldset {
   margin: 0;
 }
 
-.form__fieldset {
+.form-style {
   max-width: 385px;
   margin-top: 80px;
   margin-bottom: 120px;

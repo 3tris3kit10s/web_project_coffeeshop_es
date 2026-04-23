@@ -25,7 +25,7 @@ header {
   left: 30px;
   height: 39px;
   width: 105px;
-  z-index: 2;
+  z-index: 4;
 }
 
 .nav__options {
@@ -54,7 +54,7 @@ header {
 
 .nav__link:hover {
   text-decoration: none;
-  color: #0000006c;
+  color: #ff976b;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;

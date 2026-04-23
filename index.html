@@ -9,13 +9,13 @@
   </head>
   <body>
     <!--INICIO HEADER-->
-    <header class="header">
+    <header class="header" id="header">
       <nav class="nav">
-        <img
+        <a href="#header"><img
           class="nav__logo"
           src="./images/header/logo_coffeeshop_dark.svg"
           alt="logo del café triple expresso"
-        />
+        /></a>
         <ul class="nav__options">
           <li class="option__link">
             <a class="nav__link" href="#main">Reservar una mesa</a>
@@ -57,64 +57,119 @@
     <main class="main" id="main">
       <h2 class="main__title">Reservar una mesa</h2>
       <form class="main__form" action="#" method="post">
-        <fieldset class="form__fieldset">
+        <!--FORM PARA RESERVA DE MESA-->
+        <label class="form-style">
           <fieldset class="fieldset__label">
+            <!--NOMBRE CLIENTE-->
             <label class="form__label" for="name">Nombre *</label>
             <input
               class="form__input"
               type="text"
               id="name"
               placeholder="Nombre"
-              name="form_name" value=""
+              name="form_name"
+              value=""
               required
             />
           </fieldset>
           <fieldset class="fieldset__label">
-          <label class="form__label" for="number">Número de comensales *</label>
+            <!--NUMERO DE CLIENTES-->
+            <label class="form__label" for="number"
+              >Número de comensales *</label
+            >
             <input
               class="form__input"
               type="number"
               id="number"
               placeholder="1-8"
-              name="form_number" value=""
+              name="form_number"
+              value=""
               min="1"
               max="8"
               required
             />
           </fieldset>
           <fieldset class="fieldset__label">
-            <label class="form__label" for="datetime-local">Fecha y hora *</label>
+            <!--HORA DE RESERVA-->
+            <label class="form__label" for="datetime-local"
+              >Fecha y hora *</label
+            >
             <input
               class="form__input"
               type="datetime-local"
               id="datetime-local"
               placeholder="dd/mm/aa"
-              name="form_dtae" value=""
+              name="form_dtae"
+              value=""
               required
             />
           </fieldset>
           <fieldset class="fieldset__label">
-            <label class="form__label" for="email">Tu correo electrónico *</label>
-              <input
-                class="form__input"
-                type="email"
-                id="email"
-                placeholder="email@email.com"
-                name="form_email" value=""
-                required
-              />
+            <!--CORREO ELECTRONICO DEL CLIENTE-->
+            <label class="form__label" for="email"
+              >Tu correo electrónico *</label
+            >
+            <input
+              class="form__input"
+              type="email"
+              id="email"
+              placeholder="email@email.com"
+              name="form_email"
+              value=""
+              required
+            />
           </fieldset>
           <fieldset class="fieldset__button">
-            <button type="submit" class="main__button">Reservar una mesa</button>
-           </fieldset>
-           <fieldset class="fieldset__checkbox">
+            <!--BOTON CONFIRMACION DE RESERVA-->
+            <button type="submit" class="main__button">
+              Reservar una mesa
+            </button>
+          </fieldset>
+          <fieldset class="fieldset__checkbox">
+            <!--ACEPTACION DE TERMINOS-->
             <input class="checkbox" type="checkbox" id="checkbox" required />
             <label class="checkbox__label" for="checkbox"
-              >Acepto los términos de uso</label>
+              >Acepto los términos de uso</label
+            >
           </fieldset>
-        </fieldset>
+        </label>
+      </form>
     </main>
     <!--INICIO FOOTER-->
-    <footer class="footer" id="footer"></footer>
+    <footer class="footer" id="footer">
+      <section class="footer__container">
+        <div class="circulo"></div>
+        <img
+          class="footer__logo"
+          src="./images/footer/logo_coffeeshop_light.svg"
+        />
+        <ul class="footer__socialmedia">
+          <li class="title__socialmedia">
+            <h3 class="footer__title">Redes sociales</h3>
+          </li>
+          <li class="footer__listItem">
+            <!--FACEBOOK-->
+            <a class="socialmediaLink" href="https://www.facebook.com/">
+              <img
+                class="socialmediaImage"
+                src="./images/footer/facebook_white.svg"
+              />
+              Facebook
+            </a>
+          </li>
+          <li class="footer__listItem">
+            <!--INSTAGRAM-->
+            <a class="socialmediaLink" href="https://www.instagram.com/">
+              <img
+                class="socialmediaImage"
+                src="./images/footer/instagram_white.svg"
+              />
+              Instagram
+            </a>
+          </li>
+        </ul>
+      </section>
+      <p class="copyright">© 2026 Carmelo Morelli</p>
+    </footer>
   </body>
 </html>
