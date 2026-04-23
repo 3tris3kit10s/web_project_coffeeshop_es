@@ -1,0 +1,29 @@
+/*INTER GOOGLE FONT*/
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/Inter-VariableFont_opsz\,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*NOTO SERIF GOOGLE FONT*/
+@font-face {
+  font-family: 'NotoSerif';
+  src: url('./fonts/NotoSerif-Italic-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NotoSerif';
+  src: url('./fonts/NotoSerif-VariableFont_wdth\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
