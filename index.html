@@ -54,8 +54,65 @@
       </div>
     </header>
     <!--INICIO MAIN-->
-    <main class="content" id="main">
-      
+    <main class="main" id="main">
+      <h2 class="main__title">Reservar una mesa</h2>
+      <form class="main__form" action="#" method="post">
+        <fieldset class="form__fieldset">
+          <fieldset class="fieldset__label">
+            <label class="form__label" for="name">Nombre *</label>
+            <input
+              class="form__input"
+              type="text"
+              id="name"
+              placeholder="Nombre"
+              name="form_name" value=""
+              required
+            />
+          </fieldset>
+          <fieldset class="fieldset__label">
+          <label class="form__label" for="number">Número de comensales *</label>
+            <input
+              class="form__input"
+              type="number"
+              id="number"
+              placeholder="1-8"
+              name="form_number" value=""
+              min="1"
+              max="8"
+              required
+            />
+          </fieldset>
+          <fieldset class="fieldset__label">
+            <label class="form__label" for="datetime-local">Fecha y hora *</label>
+            <input
+              class="form__input"
+              type="datetime-local"
+              id="datetime-local"
+              placeholder="dd/mm/aa"
+              name="form_dtae" value=""
+              required
+            />
+          </fieldset>
+          <fieldset class="fieldset__label">
+            <label class="form__label" for="email">Tu correo electrónico *</label>
+              <input
+                class="form__input"
+                type="email"
+                id="email"
+                placeholder="email@email.com"
+                name="form_email" value=""
+                required
+              />
+          </fieldset>
+          <fieldset class="fieldset__button">
+            <button type="submit" class="main__button">Reservar una mesa</button>
+           </fieldset>
+           <fieldset class="fieldset__checkbox">
+            <input class="checkbox" type="checkbox" id="checkbox" required />
+            <label class="checkbox__label" for="checkbox"
+              >Acepto los términos de uso</label>
+          </fieldset>
+        </fieldset>
     </main>
     <!--INICIO FOOTER-->
     <footer class="footer" id="footer"></footer>
