@@ -112,7 +112,7 @@ fieldset {
 }
 
 .main__button:hover {
-  background-color: #fb6322;
+  background-color: rgba(233, 110, 58, 0.7);
 }
 
 .fieldset__checkbox {
