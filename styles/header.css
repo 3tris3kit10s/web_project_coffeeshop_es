@@ -15,7 +15,7 @@ header {
   flex-wrap: wrap;
   min-height: 720px;
   max-height: 800px;
-  height: 100vh;
+  height: 1000vh;
   z-index: -2;
 }
 
