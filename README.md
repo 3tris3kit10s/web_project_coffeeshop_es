@@ -1,18 +1,31 @@
-# Triple Espresso
+# Triple Espresso ☕
 
-<br>
-Proyecto dos en Tripleten. Cubriendo temas de Sprint 2 & 3.
-<br>
-<br>
-Descripción
-<br>
-Pagina web para agendar reserva de mesa via formulario (submit).
-<br>
-Para la organizacion de los elementos se utilizó flexbox. 
-<br>
-<br>
-Mejora: 
-<br>
-Se implento el valor de 'Fixed' a la posición del logo para mantener a la vista este durante el scroll en la pagina. Tambien se le aplico una etiqueta '<a>' a este para tener la opcioón de devolverse al inicio de la pagina al darle click al logo. 
-<br>
-Se recomienda agregarle al formulario un '<input>' con el type 'phone' solicitando numero telefonico. Esto beneficiaria al cafe Triple Espresso para confirmar largas reservas o para avisar algun inconveniente que pueda presentarse.
+Proyecto desarrollado en **TripleTen** como parte de los **Sprints 2 y 3**.
+
+## Descripción
+
+Landing page para una cafetería ficticia que permite a los usuarios realizar reservas de mesa mediante un formulario.
+
+## Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- Flexbox
+- Metodología BEM
+
+## Funcionalidades
+
+- Formulario para agendar reservas.
+- Organización de elementos con **Flexbox**.
+- Logo fijo (`position: fixed`) visible durante el scroll.
+- Navegación al inicio de la página al hacer clic en el logo.
+
+## Mejoras futuras
+
+- Agregar un campo `<input type="tel">` para número telefónico.
+- Implementar validaciones adicionales en el formulario.
+- Conectar el formulario a un backend para almacenar reservas.
+
+## Autor
+
+Desarrollado por **[Tu Nombre]**.
