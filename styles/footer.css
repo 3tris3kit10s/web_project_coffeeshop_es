@@ -9,8 +9,10 @@ body {
 footer {
   display: flex;
   flex-direction: column;
+  display: flex;
   z-index: -1;
   background-color: #e96e3a;
+  flex-direction: column;
 }
 
 .circulo {
