@@ -7,16 +7,7 @@ body {
 }
 
 header {
-  background-color: #fff;
-  background-image: url(../images/header/background_header.svg);
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  min-height: 720px;
-  max-height: 800px;
-  height: 1000vh;
-  z-index: -2;
+
 }
 
 .nav__logo {
